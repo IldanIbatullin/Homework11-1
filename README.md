@@ -12,7 +12,7 @@
 
 1. Клонируйте репозиторий:
 
-git clone https://github.com/IldanIbatullin/Homework-11.1.git
+git clone https://github.com/IldanIbatullin/Homework11-1.git
 
 
 ## Использование

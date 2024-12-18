@@ -10,6 +10,7 @@ def filter_by_currency(transactions, currency):
         if transaction["operationAmount"]["currency"]["code"] == currency:
             yield transaction
 
+
 def transaction_descriptions(transactions):
     """
     Генератор, который возвращает описания транзакций.
@@ -20,6 +21,7 @@ def transaction_descriptions(transactions):
     for transaction in transactions:
         description = transaction["description"]
         yield description
+
 
 def card_number_generator(start, stop):
     """
